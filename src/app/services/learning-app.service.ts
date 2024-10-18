@@ -3,8 +3,8 @@ import { Injectable } from '@angular/core';
 import { catchError, Observable } from 'rxjs';
 import { CategoriesType } from '../models/learning-app/categories-type';
 import { AllCoursesType } from '../models/learning-app/all-courses-type';
-import { PopularLecturersType } from '../models/learning-app/popular-lecturers-type';
 import { CurrentlyAttendingType } from '../models/learning-app/currently-attending-type';
+import { PopularLecturersType } from '../models/learning-app/popular-lecturers-type';
 import { ErrorHandlerService } from './error-handler.service';
 
 @Injectable({
